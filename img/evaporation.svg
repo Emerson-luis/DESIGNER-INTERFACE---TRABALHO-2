@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420">
+  <rect width="640" height="420" rx="24" fill="#dff3ef"/>
+  <circle cx="505" cy="88" r="48" fill="#ffd36e"/>
+  <path d="M0 255q160-30 320 0t320 0v165H0Z" fill="#2598aa"/>
+  <path d="M0 290q160-30 320 0t320 0" fill="none" stroke="#a8e5dc" stroke-width="8"/>
+  <g fill="none" stroke="#157f83" stroke-width="8" stroke-linecap="round">
+    <path d="M190 250q-22-50 0-92"/><path d="M300 245q25-60 0-108"/><path d="M410 250q-22-48 0-88"/>
+  </g>
+  <g fill="#157f83" font-family="Arial,sans-serif" font-size="24" font-weight="700">
+    <text x="205" y="360">Água líquida</text><text x="218" y="70">Vapor sobe</text>
+  </g>
+</svg>

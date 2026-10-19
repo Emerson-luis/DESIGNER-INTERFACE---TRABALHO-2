@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420">
+  <rect width="640" height="420" rx="24" fill="#dff3ef"/>
+  <path d="M0 300q160-40 320 0t320 0v120H0Z" fill="#78ad72"/>
+  <path d="M130 150q0-48 53-51 21-55 77-31 39-46 84-6 51-7 59 44 50 8 43 44Z" fill="#fff"/>
+  <g stroke="#388caa" stroke-width="9" stroke-linecap="round">
+    <path d="m190 180-15 46"/><path d="m270 180-15 46"/><path d="m350 180-15 46"/><path d="m430 180-15 46"/>
+  </g>
+  <g fill="#3e7953">
+    <path d="M100 300q20-90 40 0Z"/><path d="M500 300q25-110 50 0Z"/>
+  </g>
+  <text x="170" y="92" fill="#157f83" font-family="Arial,sans-serif" font-size="27" font-weight="700">A água cai das nuvens</text>
+</svg>

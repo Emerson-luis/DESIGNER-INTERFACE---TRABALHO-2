@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420">
+  <rect width="640" height="420" rx="24" fill="#dff3ef"/>
+  <circle cx="520" cy="75" r="40" fill="#ffd36e"/>
+  <path d="M0 185q160-30 320 0t320 0v235H0Z" fill="#80b878"/>
+  <path d="M0 225h640v95H0Z" fill="#b98e5f"/>
+  <path d="M0 320h640v100H0Z" fill="#4a9caf"/>
+  <path d="M190 175v134M320 175v134M450 175v134" stroke="#387c55" stroke-width="9" stroke-linecap="round"/>
+  <path d="m181 280 9 20 9-20m112 0 9 20 9-20m112 0 9 20 9-20" fill="none" stroke="#eafaff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="155" y="98" fill="#157f83" font-family="Arial,sans-serif" font-size="26" font-weight="700">A água atravessa o solo</text>
+  <text x="196" y="375" fill="#fff" font-family="Arial,sans-serif" font-size="23" font-weight="700">Água subterrânea</text>
+</svg>

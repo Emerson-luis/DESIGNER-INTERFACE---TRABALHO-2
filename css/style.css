@@ -1,0 +1,129 @@
+﻿:root {
+  --bg: #123b4a;
+  --panel: #1a4a58;
+  --text: #f1f7f3;
+  --muted: #c4d5d2;
+  --accent: #83dfc7;
+  --line: rgba(222, 245, 239, .2);
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 16px/1.7 "DM Sans", Arial, sans-serif;
+}
+a { color: var(--accent); }
+img { display: block; max-width: 100%; height: auto; }
+h1, h2, h3 { font-family: Manrope, Arial, sans-serif; line-height: 1.2; }
+
+.skip-link {
+  position: absolute; left: -9999px; top: 1rem; z-index: 5;
+  padding: .6rem 1rem; background: var(--text); color: var(--bg);
+}
+.skip-link:focus { left: 1rem; }
+
+.site-header {
+  position: sticky; top: 0; z-index: 4;
+  display: flex; justify-content: space-between; align-items: center;
+  padding: .6rem max(5%, calc((100% - 1100px) / 2));
+  background: rgba(18, 59, 74, .96);
+  border-bottom: 1px solid var(--line);
+}
+.brand {
+  display: flex; align-items: center; gap: .7rem;
+  color: var(--text); text-decoration: none;
+  font-size: .85rem; letter-spacing: .1em;
+}
+
+.brand img { 
+  width: 42px;
+ }
+ 
+.brand strong, .eyebrow, .photo-card strong { 
+  color: var(--accent); 
+}
+
+.site-menu { 
+  position: relative; 
+}
+
+.site-menu summary {
+  display: flex; align-items: center; gap: .6rem;
+  cursor: pointer; list-style: none;
+}
+
+.site-menu summary::-webkit-details-marker {
+   display: none;
+  }
+
+.menu-icon { display: grid; gap: 5px; width: 22px; }
+.menu-icon span { height: 2px; background: var(--text); }
+.site-menu nav {
+  position: absolute; top: calc(100% + 1rem); right: 0; width: 220px;
+  padding: .5rem; background: var(--panel);
+  border: 1px solid var(--line); border-radius: 8px;
+}
+.site-menu ul { margin: 0; padding: 0; list-style: none; }
+.site-menu nav a { display: block; padding: .6rem; text-decoration: none; }
+.site-menu nav a:hover { background: rgba(255, 255, 255, .08); }
+a:focus-visible, summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
+
+.intro-section, .gallery-section {
+  width: min(100% - 2rem, 900px); margin: 0 auto;
+  padding: 4rem 0; scroll-margin-top: 6rem;
+}
+.intro-section { min-height: 110vh; }
+.eyebrow { margin: 0 0 .5rem; font-size: .75rem; font-weight: 700; letter-spacing: .16em; }
+h1 { margin: 0 0 1rem; font-size: clamp(2.5rem, 7vw, 4.5rem); }
+.intro-lede, .gallery-intro { max-width: 680px; color: var(--muted); font-size: 1.1rem; }
+.main-figure, .sun-figure { margin: 2rem 0; }
+.main-figure img {
+  width: 100%; max-height: 420px; object-fit: contain;
+  background: #d8f2ed; border-radius: 12px;
+}
+.sun-figure img { width: 100%; max-height: 460px; object-fit: cover; border-radius: 12px; }
+figcaption { margin-top: .5rem; color: var(--muted); font-size: .85rem; }
+.article-copy { max-width: 760px; }
+.article-copy h2, .gallery-section h2, .references h2 {
+  margin: 2rem 0 .6rem; font-size: clamp(1.5rem, 4vw, 2rem);
+}
+.article-copy p { margin: 0 0 1rem; }
+.fact-box { padding: 1rem 1.3rem; border-left: 3px solid var(--accent); background: var(--panel); }
+.fact-box p { margin: .35rem 0; }
+
+.photo-gallery { display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 2rem; }
+.photo-card {
+  flex: 1 1 calc(50% - 1rem); min-width: 260px; margin: 0;
+  overflow: hidden; background: var(--panel);
+  border: 1px solid var(--line); border-radius: 10px;
+}
+.photo-card img { width: 100%; height: 230px; object-fit: cover; }
+.photo-card figcaption {
+  display: grid; gap: .25rem; min-height: 90px;
+  padding: 1rem; margin: 0;
+}
+.references {
+  margin-top: 3rem; padding-top: 1rem;
+  border-top: 1px solid var(--line); scroll-margin-top: 6rem;
+}
+.references ul { padding-left: 1.2rem; }
+
+.site-footer {
+  display: flex; justify-content: space-between; gap: 1rem;
+  padding: 1.5rem max(5%, calc((100% - 1100px) / 2));
+  border-top: 1px solid var(--line); color: var(--muted);
+}
+.site-footer p { margin: 0; }
+
+@media (max-width: 600px) {
+  .intro-section, .gallery-section { padding: 2.5rem 0; }
+  .site-footer { flex-direction: column; }
+  .photo-card { flex-basis: 100%; }
+  .photo-card img { height: 210px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}

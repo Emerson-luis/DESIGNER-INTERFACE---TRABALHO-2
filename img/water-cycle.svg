@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" role="img">
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#80c8df"/><stop offset="1" stop-color="#e1f3df"/></linearGradient>
+    <linearGradient id="sea" x2="0" y2="1"><stop stop-color="#36a6b6"/><stop offset="1" stop-color="#16718a"/></linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 10 5 0 10Z" fill="#157f83"/></marker>
+  </defs>
+  <rect width="900" height="480" rx="24" fill="url(#sky)"/>
+  <circle cx="730" cy="90" r="43" fill="#ffd36e"/>
+  <path d="M0 340q170-45 330 0t300 0q140-35 270 0v140H0Z" fill="#78ad72"/>
+  <path d="M0 393q170-35 340 0t310 0q130-25 250 0v87H0Z" fill="url(#sea)"/>
+  <path d="M0 335 150 260l110 76 112-94 140 94H0Z" fill="#719488"/>
+  <path d="M150 260l46 32-42-7-20 20-34-22Z" fill="#eff8e7"/>
+  <path d="M100 220q0-37 36-39 14-39 56-25 25-43 66-13 39-7 47 31 35 5 31 46Z" fill="#fff"/>
+  <path d="M536 167q0-32 32-36 14-32 49-20 26-31 58-5 34-4 42 28 31 5 27 33Z" fill="#fff"/>
+  <g fill="none" stroke="#157f83" stroke-width="5" marker-end="url(#arrow)">
+    <path d="M230 360Q240 280 270 220"/>
+    <path d="M350 183Q425 113 530 172"/>
+    <path d="M650 215Q670 290 640 360"/>
+    <path d="M590 402Q420 455 275 405"/>
+  </g>
+  <g fill="#123b4a" font-family="Arial,sans-serif" font-size="20" font-weight="700">
+    <text x="162" y="318">Evaporação</text>
+    <text x="382" y="112">Condensação</text>
+    <text x="675" y="285">Precipitação</text>
+    <text x="386" y="450">Escoamento</text>
+  </g>
+</svg>

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 500">
+  <defs>
+    <radialGradient id="sun" cx="38%" cy="35%">
+      <stop offset="0" stop-color="#fff1bd"/>
+      <stop offset=".5" stop-color="#ffc66f"/>
+      <stop offset="1" stop-color="#f7814c"/>
+    </radialGradient>
+    <linearGradient id="outer" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#293e5b"/>
+      <stop offset="1" stop-color="#17243a"/>
+    </linearGradient>
+  </defs>
+  <circle cx="375" cy="250" r="222" fill="url(#outer)" opacity=".48"/>
+  <g fill="none" stroke="#a8b6c9" stroke-opacity=".27">
+    <ellipse cx="360" cy="250" rx="82" ry="54" transform="rotate(-16 360 250)"/>
+    <ellipse cx="360" cy="250" rx="119" ry="78" transform="rotate(-16 360 250)"/>
+    <ellipse cx="360" cy="250" rx="157" ry="103" transform="rotate(-16 360 250)"/>
+    <ellipse cx="360" cy="250" rx="194" ry="129" transform="rotate(-16 360 250)"/>
+    <ellipse cx="360" cy="250" rx="232" ry="154" transform="rotate(-16 360 250)"/>
+    <ellipse cx="360" cy="250" rx="270" ry="179" transform="rotate(-16 360 250)"/>
+    <ellipse cx="360" cy="250" rx="309" ry="204" transform="rotate(-16 360 250)"/>
+    <ellipse cx="360" cy="250" rx="344" ry="226" transform="rotate(-16 360 250)"/>
+  </g>
+  <circle cx="360" cy="250" r="31" fill="url(#sun)"/>
+  <circle cx="360" cy="250" r="42" fill="none" stroke="#ffc66f" stroke-opacity=".16" stroke-width="9"/>
+  <circle cx="420" cy="275" r="4" fill="#b6bac3"/>
+  <circle cx="397" cy="322" r="6" fill="#d6aa72"/>
+  <circle cx="251" cy="222" r="7" fill="#5ca6c6"/>
+  <circle cx="260" cy="316" r="5" fill="#d98165"/>
+  <circle cx="487" cy="136" r="17" fill="#d7a265"/>
+  <path d="M467 128a17 17 0 0 0 28 20 17 17 0 0 1-28-20" fill="#9c6645"/>
+  <circle cx="232" cy="380" r="12" fill="#88a9a5"/>
+  <ellipse cx="232" cy="380" rx="19" ry="5" fill="none" stroke="#c3d9d2" stroke-opacity=".8" stroke-width="2" transform="rotate(-17 232 380)"/>
+  <circle cx="555" cy="369" r="10" fill="#577a9a"/>
+  <circle cx="51" cy="253" r="9" fill="#7aa2bb"/>
+  <g fill="#f4f1e8" font-family="sans-serif" font-size="15">
+    <text x="343" y="312" fill="#ffcf8f">Sol</text>
+  </g>
+  <rect x="20" y="414" width="680" height="70" rx="12" fill="#101b2d" fill-opacity=".82" stroke="#a8b6c9" stroke-opacity=".2"/>
+  <text x="38" y="436" fill="#a7b1bf" font-family="sans-serif" font-size="12">PLANETAS EM ORDEM A PARTIR DO SOL</text>
+  <g fill="#f4f1e8" font-family="sans-serif" font-size="13">
+    <circle cx="43" cy="460" r="4" fill="#b6bac3"/><text x="52" y="464">Mercúrio</text>
+    <circle cx="137" cy="460" r="4" fill="#d6aa72"/><text x="146" y="464">Vênus</text>
+    <circle cx="216" cy="460" r="4" fill="#5ca6c6"/><text x="225" y="464">Terra</text>
+    <circle cx="287" cy="460" r="4" fill="#d98165"/><text x="296" y="464">Marte</text>
+    <circle cx="365" cy="460" r="4" fill="#d7a265"/><text x="374" y="464">Júpiter</text>
+    <circle cx="452" cy="460" r="4" fill="#88a9a5"/><text x="461" y="464">Saturno</text>
+    <circle cx="548" cy="460" r="4" fill="#577a9a"/><text x="557" y="464">Urano</text>
+    <circle cx="627" cy="460" r="4" fill="#7aa2bb"/><text x="636" y="464">Netuno</text>
+  </g>
+  <g fill="#ffb96b" opacity=".75">
+    <circle cx="607" cy="105" r="2"/>
+    <circle cx="540" cy="382" r="2"/>
+    <circle cx="625" cy="312" r="1.5"/>
+    <circle cx="497" cy="72" r="1.5"/>
+    <circle cx="652" cy="192" r="1"/>
+  </g>
+</svg>

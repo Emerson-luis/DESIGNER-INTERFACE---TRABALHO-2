@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420">
+  <rect width="640" height="420" rx="24" fill="#dff3ef"/>
+  <path d="M140 220q0-54 57-58 24-62 83-35 44-52 91-6 56-8 65 49 54 9 47 50Z" fill="#fff"/>
+  <g fill="#3e9fc1">
+    <circle cx="230" cy="265" r="12"/><circle cx="320" cy="290" r="12"/><circle cx="410" cy="265" r="12"/>
+  </g>
+  <g fill="none" stroke="#58aebc" stroke-width="7" stroke-linecap="round">
+    <path d="M190 350q-25-25 0-50"/><path d="M320 350q-25-25 0-50"/><path d="M450 350q-25-25 0-50"/>
+  </g>
+  <text x="155" y="115" fill="#157f83" font-family="Arial,sans-serif" font-size="26" font-weight="700">O vapor esfria</text>
+  <text x="160" y="390" fill="#157f83" font-family="Arial,sans-serif" font-size="23" font-weight="700">Gotículas formam nuvens</text>
+</svg>
